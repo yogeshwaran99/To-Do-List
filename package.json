@@ -1,0 +1,13 @@
+{ 
+  "name":"ToDoList",
+  "version": "1.0.0",
+  "private":true,
+  "scripts": {
+        "start": "cd backend && npm start",
+        "client": "cd frontend && npm run dev",
+        "dev": "concurrently \"npm run start\" \"npm run client\""
+    },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
